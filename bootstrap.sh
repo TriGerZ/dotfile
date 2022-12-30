@@ -5,7 +5,7 @@ SOURCE="(%):-%x"
 
 cd "$(dirname "${SOURCE}")";
 
-git pull origin master;
+git pull origin develop;
 
 function doIt() {
 	rsync --exclude ".git/" \

@@ -7,7 +7,7 @@ then
 		eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-HOMEBREW_NO_ENV_HINTS="TRUE"
+# HOMEBREW_NO_ENV_HINTS="TRUE"
 
 # Install command-line tools using Homebrew.
 
