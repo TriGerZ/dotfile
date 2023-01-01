@@ -21,7 +21,5 @@ docker() {
   fi
 }
 
-# add git ssh key
-ssh-add --apple-load-keychain
-
-
+# add git ssh key (quiet)
+ssh-add --apple-load-keychain -q
